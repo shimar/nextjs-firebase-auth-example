@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# ignore secrets of service account of firebase.
+secrets.json
