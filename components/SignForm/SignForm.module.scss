@@ -1,0 +1,50 @@
+.signForm {
+  @apply mt-8;
+  @apply space-y-6;
+
+  &__inputs {
+    @apply rounded-md;
+    @apply shadow-sm;
+    @apply -space-y-px;
+
+    input[type="email"],
+    input[type="password"] {
+      @apply appearance-none;
+      @apply rounded-none;
+      @apply relative;
+      @apply block;
+      @apply w-full;
+      @apply px-3;
+      @apply py-2;
+      @apply border;
+      @apply border-gray-300;
+      @apply placeholder-gray-500;
+      @apply text-gray-900;
+    }
+
+    input[type="email"] {
+      @apply rounded-t-md;
+    }
+
+    input[type="password"] {
+      @apply rounded-b-md;
+    }
+  }
+
+  &__submit {
+    @apply group;
+    @apply relative;
+    @apply w-full;
+    @apply flex;
+    @apply justify-center;
+    @apply py-2;
+    @apply px-4;
+    @apply border;
+    @apply border-transparent;
+    @apply text-sm;
+    @apply font-medium;
+    @apply rounded-md;
+    @apply text-white;
+    @apply bg-indigo-600;
+  }
+}
