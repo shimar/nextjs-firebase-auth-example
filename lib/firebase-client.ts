@@ -17,4 +17,4 @@ if (typeof window !== 'undefined' && !firebaseClient.apps.length) {
   (window as any).firebase = firebaseClient;
 }
 
-export { firebaseClient };
+export default firebaseClient;
